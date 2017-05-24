@@ -1,0 +1,32 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a {
+	color: white;
+	display: block;
+	padding: 8px;
+	background-color: teal;
+	text-decoration: none;
+	text-align: center;
+}
+
+li a:visited {
+	color: white;
+}
+
+li a:hover {
+	color: grey;
+	background-color: blue;
+}
+
+.active {
+	background-color: purple;
+}
